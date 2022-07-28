@@ -1,3 +1,3 @@
 def Add(numbers):
-    parsed_numbers = numbers.split(",")
-    return sum(parsed_numbers)
+    parsed_numbers = int(numbers)
+    return parsed_numbers
