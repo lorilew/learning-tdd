@@ -43,3 +43,8 @@ def test_add_numbers_exception():
 def test_add_numbers_different_delimiters():
     result = Add("//;\n1;2")
     assert result == 3
+
+
+def test_negative_numbers():
+    result = Add('90,-18,1987')
+    assert result == "negatives not allowed"
