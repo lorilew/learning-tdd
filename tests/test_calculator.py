@@ -36,7 +36,6 @@ def test_add_numbers_exception():
         result = Add("1,\n")
 
 
-
 def test_add_numbers_different_delimiters():
     result = Add("//;\n1;2")
     assert result == 3
